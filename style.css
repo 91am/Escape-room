@@ -1,0 +1,37 @@
+* {
+	border: 1px solid red;
+}
+
+header > div {
+	padding: 0px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav {
+	width: 600px;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+form {
+	display: flex;
+	justify-content: column;
+}
+
+input {
+	padding: 5px 25px;
+	display: flex;
+	width: 100%;
+}
