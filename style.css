@@ -3,7 +3,6 @@
 }
 
 header > div {
-	padding: 0px 20px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -34,4 +33,18 @@ input {
 	padding: 5px 25px;
 	display: flex;
 	width: 100%;
+}
+
+.npm_logo{
+    height: 18px;
+}
+
+/* position absolute rompe el flujo 2D y se coloca por encima del elemento contenedor */
+.magnifying_glass{
+    height: 18px;
+    position: absolute;
+}
+
+.search_box{
+
 }
